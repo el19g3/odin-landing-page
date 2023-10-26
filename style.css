@@ -1,3 +1,9 @@
+/* Body */
+html, body {
+      margin: 0;
+      padding: 0;
+}
+
 /*Header*/
 .header {
       background-color: #1f2937;
@@ -26,4 +32,17 @@
       justify-content: space-between;
       gap: 20px;
       padding: 0 20px;
+}
+
+/*Footer*/
+.footer {
+      background-color: #1f2937;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+}
+.footer p {
+      color: #e5e7eb;
+      font-size: 18px;
 }
