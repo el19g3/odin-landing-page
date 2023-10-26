@@ -15,7 +15,7 @@ html, body {
 .header .logo {
       font-size: 24px;
       color: #f9faf8;
-      padding: 0 20px;
+      padding: 0 50px;
 }
 
 .header a, .header ul {
@@ -31,7 +31,49 @@ html, body {
       align-items: center;
       justify-content: space-between;
       gap: 20px;
-      padding: 0 20px;
+      padding: 0 50px;
+}
+
+/* Main Content -> Upper Section */
+.upper-content {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      background-color: #1f2937;
+      padding: 50px;
+
+}
+.upper-left-content {
+      flex: 1 1 1;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: center;
+      width: 50%;
+      height: 100%;
+      color: #e5e7eb;
+      font-size: 18px;
+}
+.upper-left-content h2 {
+      font-size: 48px;
+      font-weight: extra-bold;
+      color: #f9faf8;
+}
+.upper-left-content h2,
+.upper-left-content p {
+  margin: 0;
+  padding: 0;
+}
+.upper-right-content {
+      flex: 1 1 1;
+      width: 50%;
+      min-height: 100%;
+      color: #e5e7eb;
+      background-color: gray;
+      display: flex;
+      justify-content: center;
+      align-items: center;
 }
 
 /*Footer*/
