@@ -91,6 +91,37 @@ html, body {
       align-items: center;
 }
 
+/* Main Content -> Random Information Section */
+.main-content h2 {
+      text-align: center;
+      font-size: 36px;
+      font-weight: extra-bold;
+      color: #1f2937
+}
+.info-section {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      gap: 30px;
+}
+.info-part {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 2px;
+}
+.info-box {
+      background-color: white;
+      border: #3882f6 2px solid;
+      border-radius: 5px;
+}
+.info-text {
+      font-size: 18px;
+      color: #1f2937;
+      text-align: center;
+}
 /*Footer*/
 .footer {
       background-color: #1f2937;
