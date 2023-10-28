@@ -35,6 +35,12 @@ html, body {
 }
 
 /* Main Content -> Upper Section */
+.main-content {
+      display: flex;
+      flex-direction: column;
+      height: 100%;
+      width: 100%;
+}
 .upper-content {
       display: flex;
       flex-direction: row;
@@ -71,6 +77,7 @@ html, body {
       background-color: #3882f6;
       text-align: center;
       padding: 10px 30px;
+      margin-top: 5px;
       border: 0;
       border-radius: 5px;
       cursor: pointer;
@@ -90,7 +97,7 @@ html, body {
 }
 
 /* Main Content -> Random Information Section */
-.info-head h2 {
+.info-head {
       text-align: center;
       font-size: 36px;
       font-weight: extra-bold;
@@ -143,6 +150,33 @@ html, body {
       align-self: flex-end;
 }
 /* Main Content -> Call-To-Action Section */
+.call-to-action {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #3882f6;
+      margin: 100px 200px;
+      padding: 15px 75px;
+      
+      border-radius: 10px;
+      color: #e5e7eb;
+      font-size: 18px;
+}
+.call-to-action h2 {
+      font-size: 36px;
+      font-weight: bold;
+      color: #f9faf8;
+      padding-bottom: 0;
+      margin-bottom: 0;
+}
+.call-to-action p {
+      padding-top: 0;
+      margin-top: 0;
+}
+.call-to-action button {
+      border: #e5e7eb 2px solid;
+}
 
 /*Footer*/
 .footer {
